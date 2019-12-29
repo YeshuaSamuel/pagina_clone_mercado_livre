@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+    max-width: 1100;
+}
+
+.texto_header{
+    background-color:yellow ;
+    height: 50px;
+    box-shadow: 1px 3px 4px black;
+    
+}
+
+.vendidos{
+    display: flex;
+    margin-right:0px;
+    color: grey;
+    width: 130px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 248px;
+    padding:10px;
+}
+
+.parte1{
+    margin-left: 60px;
+    width: 500px;
+    margin-top: 20px;
+    border: solid grey 1px;
+}
+
+.right_part{
+    border: solid  grey 1px;
+    margin-top: -410px;
+    float: right;
+    width: 400px;
+    height: 550px;
+    margin-right: 30px;
+}
+
+.texto1{
+    font-size: 23px;
+    font-weight: bold;
+    color: #302f2f;
+    width:390px ;
+    margin-left: 10px;
+    margin-top: 70px;
+
+}
+
+.preco{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 150px;
+    color: #302f2f;
+    font-weight: lighter;
+}
+
+.desc{
+    margin-top: -35px;
+    margin-left: 200px;
+    color: #00a650;
+    width: 80px;
+    font-weight:lighter ;
+}
+
+.cor{
+    margin-top: 30px;
+    margin-left:10px;
+    width: 70px;
+}
+
+
+.botao{
+    background-color: #3483fa;
+    height: 46px;
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.ad_car{
+    height: 46px;
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-top: 11px;
+    border-radius: 6px;
+    border:solid #3483fa 1.3px;
+}
+
+
+
+.redmi{
+    
+    width:50px;
+    height: 50px;
+    margin-top: 15px;
+    border: solid 2px #3483fa;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+h4{
+    text-align: center;
+    line-height: 46px;
+}
+
+h3{  
+    width: 300px;
+    margin-left:600px;
+    margin-top: -150px;    
+}
+
+img{
+    width:400px;
+    margin-bottom:0px ;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+}
+
+li{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.active:hover{
+    background-color: white;
+    height: 15px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius:10px;
+    border :solid 2px;
+
+}
